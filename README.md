@@ -2,9 +2,9 @@
 
 A theme attempting to mimic the amber monitors of the 80s such as:
 
-[![Dynax Amber Phosphor Monitor](https://henrylowe.net/wp-content/uploads/2024/12/tempimagebiujrh.jpg?w=250)](https://henrylowe.net/2024/12/01/a-1982-usi-pi3-amber-crt-monitor/)
-[![IBM P75](https://e3bkpsfzr34.exactdn.com/wp-content/uploads/2020/09/IMG_0767_touched-scaled.jpg?lossy=1&w=250&ssl=1)](https://retropaq.com/the-most-powerful-portable-ibm-p75/)
-[![Amdek 310a](https://litendeavor.wordpress.com/wp-content/uploads/2015/02/amber.jpg?w=250)](https://litendeavor.wordpress.com/2015/02/13/love-that-blinking-command-line/)
+[![Dynax Amber Phosphor Monitor](https://henrylowe.net/wp-content/uploads/2024/12/tempimagebiujrh.jpg?w=260)](https://henrylowe.net/2024/12/01/a-1982-usi-pi3-amber-crt-monitor/)
+[![IBM P75](https://e3bkpsfzr34.exactdn.com/wp-content/uploads/2020/09/IMG_0767_touched-scaled.jpg?lossy=1&w=260&ssl=1)](https://retropaq.com/the-most-powerful-portable-ibm-p75/)
+[![Amdek 310a](https://litendeavor.wordpress.com/wp-content/uploads/2015/02/amber.jpg?w=260)](https://litendeavor.wordpress.com/2015/02/13/love-that-blinking-command-line/)
 
 
 | Muted | Base (default) | Original |
