@@ -84,13 +84,14 @@ end
 M.setup = function(opts)
 	opts = opts or {}
 	local variant = opts.variant or "base"
+	local palette = M.palettes[variant]
 
-	if not M.palettes[variant] then
+	if not palette then
 		vim.notify("RetroTerm: unknown variant '" .. variant .. "'", vim.log.levels.ERROR)
 		return
 	end
 
-	apply_palette(M.palettes[variant])
+	apply_palette(palette)
 
 	vim.api.nvim_create_user_command("RetroTermSwitch", function(args)
 		local name = args.args
