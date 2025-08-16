@@ -83,7 +83,7 @@ end
 
 M.setup = function(opts)
 	opts = opts or {}
-	local variant = opts.variant or "muted"
+	local variant = opts.variant or "base"
 
 	if not M.palettes[variant] then
 		vim.notify("RetroTerm: unknown variant '" .. variant .. "'", vim.log.levels.ERROR)
