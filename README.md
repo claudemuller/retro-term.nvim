@@ -51,13 +51,17 @@ Switching palettes can be done with:
 
 The default palette is `base`. Below is an example on how to specify the palette from config.
 
+Enabling `blinking_cursor` will make the cursor flash/blink (currently, this has been tested on Wezterm).
+
 ```lua
 return {
   'claudemuller/retro-term.nvim',
   dependencies = { 'echasnovski/mini.nvim' },
   lazy = false,
   priority = 1000,
-  opts = {},
+  opts = {
+    blinking_cursor = true,
+  },
   config = function()
      require('retro-term').setup { variant = 'base' } -- "muted" | "original" | "base"
   end,

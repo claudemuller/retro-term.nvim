@@ -93,6 +93,16 @@ M.setup = function(opts)
 
 	apply_palette(palette)
 
+	-- Set blinking cursor
+	if opts.blinking_cursor then
+		vim.opt.guicursor = {
+			"n-v-c:block-Cursor/lCursor-blinkon100-blinkoff100",
+			"i-ci-ve:ver25-Cursor/lCursor-blinkon100-blinkoff100",
+			"r-cr:hor20-Cursor/lCursor-blinkon100-blinkoff100",
+			"o:hor50-Cursor/lCursor-blinkon100-blinkoff100",
+		}
+	end
+
 	vim.api.nvim_create_user_command("RetroTermSwitch", function(args)
 		local name = args.args
 		if not M.palettes[name] then
