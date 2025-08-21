@@ -94,7 +94,7 @@ M.setup = function(opts)
 	apply_palette(palette)
 
 	-- Set blinking cursor
-	if opts.blinking_cursor then
+	if opts["blinking_cursor"] ~= nil or opts.blinking_cursor then
 		vim.opt.guicursor = {
 			"n-v-c:block-Cursor/lCursor-blinkon100-blinkoff100",
 			"i-ci-ve:ver25-Cursor/lCursor-blinkon100-blinkoff100",
